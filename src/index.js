@@ -1,13 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App.jsx';
-
+// require('file-loader?name=[name].[ext]!./index.html');
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from "./App"
+// import "./style/index.css"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />, document.getElementById("root"),
 );
-

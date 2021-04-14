@@ -1,0 +1,11 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    background-color:rgb(247, 228, 247);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

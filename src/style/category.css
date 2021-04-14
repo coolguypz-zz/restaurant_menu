@@ -1,0 +1,29 @@
+
+.category{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.category .category-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:wheat;
+    margin: 4% 2%;
+    cursor:pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
